@@ -305,15 +305,6 @@ const styles = StyleSheet.create({
   baseContainer: {
     marginBottom: '17%',
   },
-  header: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    backgroundColor: AppStyles.color.redLight,
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    elevation: 0,
-    padding: 15,
-  },
   primary_background: {
     height: '53%',
     width: '100%',

@@ -14,5 +14,7 @@ export const AppStyles = {
     violetShade: '#e6e1f9',
     transparent: 'transparent',
     snowWhite: '#FFFFF0',
+    searchBarColor: '#e6e1fa',
+    primaryShade: '#c0bccc',
   },
 };

@@ -8,7 +8,7 @@ import {Images} from '../utils/Images';
 
 import Home from '../screens/Home';
 import QrScanner from '../screens/QrScanner';
-import Profile from '../screens/Profile';
+import Activity from '../screens/Activity';
 
 const Tab = createBottomTabNavigator();
 
@@ -44,7 +44,7 @@ const BottomTab = props => {
           } else {
             return (
               <Icon
-                name={'user'}
+                name={'bar-chart-2'}
                 color={
                   focused
                     ? AppStyles.color.primary
@@ -71,9 +71,9 @@ const BottomTab = props => {
         component={QrScanner}
       />
       <Tab.Screen
-        name="Profile"
+        name="Activity"
         options={{headerShown: false}}
-        component={Profile}
+        component={Activity}
       />
     </Tab.Navigator>
   );
